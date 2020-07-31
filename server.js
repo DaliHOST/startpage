@@ -34,7 +34,7 @@ searchencrypt.addEventListener("click",function(){
 
 function currentTime() {
     let date = new Date(); /* creating object of Date class */
-    let hour = date.getHours()-1;
+    let hour = date.getHours();
     let min = date.getMinutes();
     let sec = date.getSeconds();
     let hello=document.getElementById("hello")

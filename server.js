@@ -43,11 +43,13 @@ function currentTime() {
     sec = updateTime(sec);
     document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
       let t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
-      if(hour<12){
+      if(hour<12 && hour>=5){
         hello.innerHTML="Good Morning"
       }
-      else if(hour<18)
+      else if(hour<18 && hour>=12)
       hello.innerHTML="Good Afternoon"
+      else if(hour>=0 && hour<5 )
+      hello.innerHTML="Stop wroking and go to sleep";
       else
       hello.innerHTML="Good Evening"
   }

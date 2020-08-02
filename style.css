@@ -39,12 +39,17 @@ body {
     margin: 0!important;
 }
 
-.fa{
+.fab,.fas,.far{
     font-size:70px;
     margin: 0 5%;
 }
 
-.fa-youtube-square:hover,.fa-youtube-square:active{
+.fa-neos{
+    font-size: 60px;
+    margin-top: 1%;
+}
+
+.fa-youtube:hover,.fa-youtube:active{
     color: #b2071d;
     animation: shake 0.5s;
 }
@@ -54,13 +59,18 @@ body {
     animation: shake 0.5s;
 }
 
+.fa-neos:hover,.fa-neos:active{
+    color: #E50914;
+    animation: shake 0.5s;
+}
+
 .fa-github:hover,.fa-github:active{
     color: #181818;
     animation: shake 0.5s;
 }
 
-.fa-reddit-square:hover,.fa-reddit-square:active{
-    color: #FF4500;
+.fa-graduation-cap:hover,.fa-graduation-cap:active{
+    color: #4b3ef5;
     animation: shake 0.5s;
 }
 
@@ -69,7 +79,7 @@ body {
     animation: shake 0.5s;
 }
 
-.fa-envelope-square:hover,.fa-envelope-square:active{
+.fa-envelope:hover,.fa-envelope:active{
     color: #f2a60c;
     animation: shake 0.5s;
 }

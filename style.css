@@ -42,6 +42,7 @@ body {
 .fab,.fas,.far{
     font-size:70px;
     margin: 0 5%;
+    font-weight: 500;
 }
 
 .fa-neos{
@@ -69,8 +70,8 @@ body {
     animation: shake 0.5s;
 }
 
-.fa-graduation-cap:hover,.fa-graduation-cap:active{
-    color: #4b3ef5;
+.fa-react:hover,.fa-react:active{
+    color: #3498db;
     animation: shake 0.5s;
 }
 
@@ -131,6 +132,7 @@ body {
 }
 
 footer{
+    text-align: center;
     position: fixed;
     bottom: 10px;
     

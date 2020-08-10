@@ -77,4 +77,16 @@ function currentTime() {
 //     };
 
 // document.getElementById("day").innerHTML=curday("-")
+let quotes=document.getElementById("quotes")
+
+fetch("https://type.fit/api/quotes")
+.then(response => {
+	return response.json();
+})
+.then(data=>{
+  console.log(data.length)
+  quotes.innerHTML=data[parseInt(Math.random()*data.length)].text})
+.catch(err => {
+	console.log(err);
+});
 

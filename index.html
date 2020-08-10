@@ -21,14 +21,14 @@
   <h3>You are now using <span id="engine">Google</span>.</h3>
 
 
-  <form target="_blank" id="phpaction" class="input-group" method="GET" action="https://www.google.com/search" >
+  <form id="phpaction" class="input-group" method="GET" action="https://www.google.com/search" >
     <div class="input-group-prepend">
       <span class="input-group-text"><i class="fa fa-search"></i></span>
     </div>
-    <input name="q" type="text" class="form-control" placeholder="Search for anything"
+    <input id="searchtxt" name="q" type="text" class="form-control" placeholder="Search for anything"
       aria-label="Text input with segmented dropdown button">
     <div class="input-group-append">
-      <button type="submit" class="btn btn-outline-secondary">Search</button>
+      <button id="search" type="submit" class="btn btn-outline-secondary">Search</button>
       <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only">Toggle Dropdown</span>
@@ -46,12 +46,13 @@
     <a target="_blank" href="https://www.youtube.com/" class="fab fa-youtube"></a>
     <a target="_blank" href="https://www.instagram.com/" class="fab fa-instagram"></a>
     <a target="_blank" href="https://www.netflix.com/" class="fab fa-neos"></a>
-    <a target="_blank" href="https://www.coursera.org/" class="fas fa-graduation-cap"></a>
+    <a target="_blank" href="https://learn.gomycode.co/" class="fab fa-react"></a>
     <a target="_blank" href="https://www.github.com/" class="fab fa-github"></a>
     <a target="_blank" href="https://mail.google.com/" class="far fa-envelope"></a>
   </div>
 
   <footer>
+    <h4 id="quotes">quote</h4>
     <span>Developed by MAB.</span>
   </footer>
 
